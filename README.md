@@ -9,6 +9,8 @@ warehouse_project/
 
 ├── generate_business_data_mysql.py   # 生成业务数据
 
+├── warehouse.sql                     # 对warehouse 数据库分层建表
+
 ├── etl_mysql.py                      # ETL 主脚本
 
 ├── lineage.py                        # 数据血缘分析脚本
@@ -52,6 +54,8 @@ ETL 脚本 `etl_mysql.py` 使用 `pandas` 进行数据处理，通过 `sqlalchem
 
 **血缘图示例**（实际运行生成）：
 
+
+![血缘图示例](images/lineage.png)
 
 
 ### 环境要求
